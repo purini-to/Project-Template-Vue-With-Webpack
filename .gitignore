@@ -1,0 +1,4 @@
+/**/*.un~
+/app
+/node_modules
+/bower_components
