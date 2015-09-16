@@ -1,0 +1,19 @@
+{
+  "name": "Project-Template-Vue.js",
+  "version": "0.0.0",
+  "homepage": "https://github.com/purini-to/Project-Template-Vue.js",
+  "authors": [
+    "purini-to"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "vue": "~0.12.14"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "name": "Project-Template-Vue.js",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/purini-to/Project-Template-Vue.js.git"
+  },
+  "author": "purini-to",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/purini-to/Project-Template-Vue.js/issues"
+  },
+  "homepage": "https://github.com/purini-to/Project-Template-Vue.js",
+  "devDependencies": {
+    "bower-webpack-plugin": "^0.1.8",
+    "coffee-loader": "^0.7.2",
+    "coffee-script": "^1.10.0",
+    "gulp": "^3.9.0",
+    "gulp-autoprefixer": "^3.0.1",
+    "gulp-coffee": "^2.3.1",
+    "gulp-concat": "^2.6.0",
+    "gulp-if": "^1.2.5",
+    "gulp-jade": "^1.1.0",
+    "gulp-load-plugins": "^1.0.0-rc.1",
+    "gulp-minify-css": "^1.2.1",
+    "gulp-plumber": "^1.0.1",
+    "gulp-stylus": "^2.0.6",
+    "gulp-uglify": "^1.4.1",
+    "gulp-watch": "^4.3.5",
+    "gulp-webpack": "^1.5.0",
+    "require-dir": "^0.3.0",
+    "webpack": "^1.12.1"
+  }
+}
