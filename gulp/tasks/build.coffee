@@ -9,7 +9,7 @@ webpackSettings = require "../webpack.settings"
 # src内のファイルを対象に、webpackを通してdistディレクトリにコンパイルします
 gulp.task "build:webpack", (callback) ->
   myConfig = Object.create webpackSettings
-  myConfig.devtool = 'eval'
+  myConfig.devtool = 'source-map'
   myConfig.debug = true
 
   gulp.src settings.src
