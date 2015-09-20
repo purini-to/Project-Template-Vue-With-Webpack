@@ -12,7 +12,7 @@ module.exports = {
   cache: true
   # entryポイントを指定、複数指定できます
   entry:
-    app: "#{settings.src}/js/entry/app.coffee"
+    app: "#{settings.src}/js/entry/index.coffee"
 
   # 出力先の設定
   output:

@@ -18,6 +18,8 @@
   "homepage": "https://github.com/purini-to/Project-Template-Vue.js",
   "devDependencies": {
     "autoprefixer-loader": "^3.1.0",
+    "babel-core": "^5.8.25",
+    "babel-loader": "^5.3.2",
     "bower-webpack-plugin": "^0.1.8",
     "coffee-loader": "^0.7.2",
     "coffee-script": "^1.10.0",

@@ -14,12 +14,13 @@ div
   h2 {{ discripsion }}
 </template>
 
-<script lang="coffee">
-module.exports = {
-  data: ->
-    {
-      title: "TODO"
+<script lang="babel">
+export default {
+  data() {
+    return {
+      title: "TODO",
       discripsion: "やること一覧"
     }
+  }
 }
 </script>
