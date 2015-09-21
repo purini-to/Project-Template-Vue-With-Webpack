@@ -1,5 +1,6 @@
 "use strict"
 
+require "Materialize"
 require "../../css/app.styl"
 
 Vue = require "vue"

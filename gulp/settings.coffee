@@ -4,17 +4,21 @@
 dist = "./app"
 # ソースディレクトリ
 src = "./src"
+# webpack出力先
+build = "build"
 
 module.exports = {
   # 出力先を指定
   dist: dist
   # ソース
   src: src
+  # webpack出力先
+  build: build
 
   # coffeeビルドの設定
   js:
     src: "#{src}/js/**"
-    dist: "#{dist}/build"
+    dist: "#{dist}/#{build}"
     uglify: false
 
   # stylusビルドの設定

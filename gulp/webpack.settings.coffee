@@ -12,12 +12,12 @@ module.exports = {
   cache: true
   # entryポイントを指定、複数指定できます
   entry:
-    app: "#{settings.src}/js/entry/index.coffee"
+    index: "#{settings.src}/js/entry/index.coffee"
 
   # 出力先の設定
   output:
     path: path.join(__dirname, settings.dist)
-    publicPath: settings.dist
+    publicPath: "#{settings.build}/"
     filename: "[name].js"
     chunkFilename: "[chunkhash].js"
 
@@ -53,6 +53,13 @@ module.exports = {
   # webpack用の各プラグイン
   plugins: [
     # bower.jsonにあるパッケージをrequire出来るように
-    new BowerWebpackPlugin()
+    new BowerWebpackPlugin({
+      excludes: /[Mm]aterialize.*sass/
+    })
+    new webpack.ProvidePlugin({
+      jQuery: "jquery",
+      $: "jquery",
+      jquery: "jquery"
+    })
   ]
 }
